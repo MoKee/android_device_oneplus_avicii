@@ -1,5 +1,5 @@
 type hal_touch_lito, domain;
-hal_server_domain(hal_touch_lito, hal_lineage_touch)
+hal_server_domain(hal_touch_lito, hal_mokee_touch)
 
 type hal_touch_lito_exec, vendor_file_type, exec_type, file_type;
 init_daemon_domain(hal_touch_lito)

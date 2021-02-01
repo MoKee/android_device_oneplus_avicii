@@ -1,5 +1,5 @@
 type hal_livedisplay_lito, domain;
-hal_server_domain(hal_livedisplay_lito, hal_lineage_livedisplay)
+hal_server_domain(hal_livedisplay_lito, hal_mokee_livedisplay)
 
 type hal_livedisplay_lito_exec, vendor_file_type, exec_type, file_type;
 init_daemon_domain(hal_livedisplay_lito)

@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii"
+  },
+  {
     "repository": "android_device_oneplus_common",
     "target_path": "device/oneplus/common"
   },

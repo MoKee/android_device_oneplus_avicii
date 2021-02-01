@@ -14,14 +14,14 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.lineage.livedisplay@2.0-service.oneplus_lito",
-    init_rc: ["vendor.lineage.livedisplay@2.0-service.oneplus_lito.rc"],
+    name: "vendor.mokee.livedisplay@2.0-service.oneplus_lito",
+    init_rc: ["vendor.mokee.livedisplay@2.0-service.oneplus_lito.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     vendor: true,
     srcs: [
-        ":vendor.lineage.livedisplay@2.0-sdm-pa",
-        ":vendor.lineage.livedisplay@2.0-sdm-utils",
+        ":vendor.mokee.livedisplay@2.0-sdm-pa",
+        ":vendor.mokee.livedisplay@2.0-sdm-utils",
         "DisplayModes.cpp",
         "SunlightEnhancement.cpp",
         "service.cpp",
@@ -32,10 +32,10 @@ cc_binary {
         "libhidlbase",
         "libhidltransport",
         "libutils",
-        "vendor.lineage.livedisplay@2.0",
+        "vendor.mokee.livedisplay@2.0",
     ],
     header_libs: [
-        "vendor.lineage.livedisplay@2.0-sdm-headers",
+        "vendor.mokee.livedisplay@2.0-sdm-headers",
     ],
     cflags: ["-DLIVES_IN_SYSTEM"],
 }

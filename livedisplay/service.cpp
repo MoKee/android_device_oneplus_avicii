@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "lineage.livedisplay@2.0-service.oneplus_lito"
+#define LOG_TAG "mokee.livedisplay@2.0-service.oneplus_lito"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
@@ -30,13 +30,13 @@ using android::status_t;
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 
-using ::vendor::lineage::livedisplay::V2_0::IDisplayModes;
-using ::vendor::lineage::livedisplay::V2_0::IPictureAdjustment;
-using ::vendor::lineage::livedisplay::V2_0::ISunlightEnhancement;
-using ::vendor::lineage::livedisplay::V2_0::implementation::DisplayModes;
-using ::vendor::lineage::livedisplay::V2_0::implementation::SunlightEnhancement;
-using ::vendor::lineage::livedisplay::V2_0::sdm::PictureAdjustment;
-using ::vendor::lineage::livedisplay::V2_0::sdm::SDMController;
+using ::vendor::mokee::livedisplay::V2_0::IDisplayModes;
+using ::vendor::mokee::livedisplay::V2_0::IPictureAdjustment;
+using ::vendor::mokee::livedisplay::V2_0::ISunlightEnhancement;
+using ::vendor::mokee::livedisplay::V2_0::implementation::DisplayModes;
+using ::vendor::mokee::livedisplay::V2_0::implementation::SunlightEnhancement;
+using ::vendor::mokee::livedisplay::V2_0::sdm::PictureAdjustment;
+using ::vendor::mokee::livedisplay::V2_0::sdm::SDMController;
 
 int main() {
     status_t status = OK;
